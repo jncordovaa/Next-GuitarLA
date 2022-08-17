@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*
+.container div {
+    background-color: aqua;
+    border: 1px solid;
+}*/
+
+.btn_container {
+    display: flex;
+    column-gap: 1.1rem;
+}
+
+.btn_container button {
+    /*background: transparent;*/
+    border: 1px solid var(--negro);
+    color: var(--negro);
+    width: 3rem;
+    height: 3rem;
+    /*border-radius: var(--radius);*/
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.active {
+    background: var(--primary);
+    color: var(--blanco);
+}
+
+.formulario {
+    display: flex;
+    gap: 1rem;
+}
+
+.formulario select {
+    /*border: 2px solid var(--primary);*/
+    padding: 0.2rem;
+    text-align: left;
+}
+
+.formulario input[type="text"] {
+    width: 300px;
+}

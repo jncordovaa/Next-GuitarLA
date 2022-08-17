@@ -1,0 +1,8 @@
+.blog {
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+
+    overflow-x: scroll;
+    scroll-snap-type: x;
+}
