@@ -5,6 +5,7 @@ import { BsFillGridFill, BsList, BsChevronLeft, BsChevronRight, BsSearch } from 
 import { useEffect, useState } from "react"
 import Styles from '../styles/Tienda.module.css'
 
+/*esto es una prueba*/
 /*export default function Tienda({ guitarras }) {*/
 export default function Tienda() {
     //console.log('---->Tienda')
